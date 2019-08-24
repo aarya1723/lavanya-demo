@@ -1,0 +1,92 @@
+<html>
+<head>
+	<style>
+		html,body,.container{
+			height:100%;
+			width:100%;
+			margin:0;
+			padding:0;
+		}
+		.container{
+			display:flex;
+			flex-direction:column;
+		}
+		.header{
+			flex:1 10%;
+			background-color:red;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			background-image:url("images/bg2.jpg");
+			background-size:100%;
+		}
+		.header li{
+			display:inline;
+			border:1px solid black;
+			margin-left:20px;
+			background-color:yellow;
+			}
+		a{
+			text-decoration:none;
+			padding:10px;
+			font-size:20px;
+			font-weight:bold;
+		}
+		.section{
+			flex:1 80%;
+			background-color:#ccccc0;
+			flex-direction:row;
+			display:flex;
+		}
+		.img-sec{
+			flex:1;
+			padding:10px;
+		}
+		.footer{
+			flex:1 10%;
+			background-image:url("images/bg1.jpg");
+			background-size:100%;
+			}
+		.section p{
+			column-count:2;
+		}
+		</style>
+	</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<ul>
+					<li><a href="#">Home </a></li>
+					<li><a href="#">Email</a></li>
+			</ul>
+		</div>
+		<div class="section">
+			<div class="img-sec">
+				<img src="images/baby1.jpg" width="600px" />
+			</div>
+			<div class="img-con">
+				<p>Sprinklr was founded in the year 2009 with the core idea to help large enterprises, 
+					not just successfully adapt to the realities of a world dominated by mobile, social 
+					and network-empowered customers, but also to thrive in it. Sprinklr provides an 
+					enterprise Social Relationship Platform, SaaS based,to serve as the infrastructure 
+					for many of the world’s most social companies including Intel, Dell, Virgin America, 
+					Cisco Systems, DuPont, Samsung, and General Motors. The product features include 
+					Data interpretation (or analysis) has the objective of presenting quantative facts 
+					in different ways, to facilitate highlighting of different aspects of or different 
+					perceptions in a quantitative situation. To this end quantitative data are expressed
+					in purely verbal terms or depicted visually, or by a combination of both modes of 
+					expression. The test usually involves the understanding of data presented in one way, 
+					followed by analysis of it and re-presenting it in a different way. The customary 
+					multiple-choice responses are given, and one has to opt for one of them as the one 
+					that best meets the needs.
+				</p>
+			</div>
+		</div>
+		<div class="footer">
+		
+		</div>
+		
+	</div>
+
+</body>
+</html>
